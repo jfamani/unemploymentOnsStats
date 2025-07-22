@@ -41,7 +41,5 @@ agePayroll <- julyData %>%
   ) %>% 
   mutate(percIncrease = ((`June 2025` - `June 2024`)/`June 2024`)*100) %>%
   write_clip()
-  
-  
 ```
 
